@@ -1,6 +1,6 @@
-let btn = document.querySelector("#new-quote") //we could also ude getElementById
-let quote = document.querySelector("#quote-text") //we could also ude getElementById
-let person = document.querySelector("#person") //we could also ude getElementById
+let btn = document.querySelector("#new-quote") //we could also use getElementById
+let quote = document.querySelector("#quote-text") //we could also use getElementById
+let person = document.querySelector("#person") //we could also use getElementById
 
 const quotes = [
 {
@@ -225,4 +225,5 @@ function generateRandomQuote(){
 btn.addEventListener('click', generateRandomQuote); //this listens for the button clicks
 
 window.addEventListener('load', generateRandomQuote); //this waits for the window to load (for app to start)
+
 
